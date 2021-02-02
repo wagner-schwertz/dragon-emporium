@@ -17,7 +17,7 @@ e executar os seguintes comandos:
 
 ## Soluções adotadas
 
-# Framework
+### Framework
 
 #create-react-app segue sendo o melhor para o que faz(SPA), e por isso foi a ferramenta adotada.
 
