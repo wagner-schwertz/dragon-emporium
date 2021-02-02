@@ -4,12 +4,24 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
+    "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "date-fns": "^2.16.1",
+    "framer-motion": "^3.2.2-rc.1",
+    "i18next": "^19.8.5",
+    "miragejs": "^0.1.41",
+    "polished": "^4.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-hook-form": "^6.14.2",
+    "react-i18next": "^11.8.5",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "zustand": "^3.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,6 +45,27 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/**/styles.js",
+      "!src/styles/*.js",
+      "!src/testUtils/*.js",
+      "!src/index.js",
+      "!src/services/**/*.js",
+      "!src/locale/*.js",
+      "!src/store/*.js",
+      "!src/routes/*.jsx",
+      "!src/pages/**/*.jsx",
+      "!src/i18n.js",
+      "!src/index.js",
+      "!src/App.js"
     ]
   }
 }
