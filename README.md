@@ -2,6 +2,10 @@
 
 Esta aplicação foi desenvolvida como parte do processo seletivo para Desenvolvedor Front-End na South System
 
+### Link do deploy da aplicação
+
+https://naughty-chandrasekhar-708949.netlify.app/
+
 ## Como rodar
 
 Primeiramente é preciso garantir que o usuário tenha instalado em sua máquina a versão LTS do Node e Git. Em seguida o usuário deve abrir o terminal
@@ -14,6 +18,10 @@ e executar os seguintes comandos:
 `npm install`
 
 `npm start`
+
+### Autenticação
+
+Credenciais para login podem ser encontradas no arquivo `src/users.json`. O usuário padrão é `admin` e a senha é `123`
 
 ## Soluções adotadas
 
